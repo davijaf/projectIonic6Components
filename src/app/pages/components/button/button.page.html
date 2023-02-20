@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-button slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-button>
+    <ion-title>Button</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <br>
+  <!--Default-->
+  <ion-button>Default</ion-button>
+  <!--Anchor-->
+  <ion-button href="https://www.linkedin.com/in/davijaf" target="_blank">Linkedin</ion-button>
+  <ion-button href="https://github.com/davijaf" target="_blank">GitHub</ion-button>
+  <!--Colors-->
+  <br><br>
+  <ion-button color="primary">Primary</ion-button>
+  <ion-button color="secondary">Secondary</ion-button>
+  <ion-button color="tertiary">Tertiary</ion-button>
+  <ion-button color="success">Success</ion-button>
+  <ion-button color="warning">Warning</ion-button>
+  <ion-button color="danger">Danger</ion-button>
+  <ion-button color="light">Light</ion-button>
+  <ion-button color="medium">Medium</ion-button>
+  <ion-button color="dark">Dark</ion-button>
+  <!-- Expand -->
+  <br><br>
+  <ion-button expand="block">Block</ion-button>
+  <ion-button expand="full" color="dark">Full</ion-button>
+  <ion-button expand="round">Round</ion-button>
+  <ion-button shape="round">Round</ion-button>
+  <!-- Expand -->
+  <br><br>
+  <ion-button expand="block" fill="outline">Block + Outline</ion-button>
+  <ion-button expand="full" fill="outline" color="dark">Full + Outline</ion-button>
+  <ion-button expand="round" fill="outline">Round + Outline</ion-button>
+  <!--Icons-->
+  <br><br>
+  <ion-button><ion-icon slot="start" name="star"></ion-icon>Left Icon</ion-button>
+  <ion-button>Right Icon<ion-icon slot="end" name="star"></ion-icon></ion-button>
+  <ion-button><ion-icon slot="icon-only" name="star"></ion-icon></ion-button>
+  <!--Sizes-->
+  <br><br>
+  <ion-button size="small">Small</ion-button>
+  <ion-button size="default">Default</ion-button>
+  <ion-button size="large">Large</ion-button>
+
+  <!--Event Button-->
+  <ion-button (click)="enviar()">Botão com evento Click</ion-button>
+
+</ion-content>
